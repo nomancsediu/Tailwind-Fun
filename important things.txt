@@ -1,0 +1,38 @@
+TAILWIND CSS - IMPORTANT THINGS FOR PROJECTS
+=============================================
+
+1. Colors
+   - Text color, Background color, Arbitrary colors
+
+2. Spacing (Margin & Padding)
+   - m, p, mx, my, px, py, mt, mb, ml, mr, pt, pb, pl, pr
+
+3. Typography
+   - Font size, Font weight, Text alignment, Text transform
+
+4. Sizing
+   - Width, Height, Max-width, Percentage widths, Full width
+
+5. Position
+   - relative, absolute, top, bottom, left, right
+
+6. Backgrounds & Shadows
+   - Background image, Box shadows, Gradients
+
+7. Borders
+   - Border width, Border color, Border radius, Rounded
+
+8. Breakpoints (Responsive Design)
+   - sm, md, lg, xl, 2xl prefixes
+
+9. Flexbox
+   - flex, justify, items, flex-col, flex-1, gap
+
+10. Grid
+    - grid, grid-cols, gap, col-span, row-span
+
+11. Transitions & Transforms
+    - transition, duration, ease, delay, hover, scale, translate
+
+12. Hover & State Variants
+    - hover:, focus:, active:
