@@ -4,11 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Tailwind Colors</title>
+    <title>Tailwind Transform Transitions and Animation</title>
   </head>
-  <body class="p-20">
-    <br />
-    <hr />
-    <br />
+  <body class="p-10">
+    <div class="mb-10">
+      <button class="bg-blue-500 p-5 text-white hover:bg-blue-700">
+        Click Me
+      </button>
+
+      <button
+        class="bg-blue-500 p-5 text-white hover:bg-green-700 duration-300 ease-in-out delay-150 text-bold"
+      >
+        With Transition
+      </button>
+    </div>
+    <!-- Transformation -->
+
+    <button
+      class="p-5 ml-5 text-white bg-blue-500 transition ease-in-out delay-150 duration-1000 hover:-translate-y-1 hover:scale-110 hover:bg-teal-500"
+    >
+      Transformation
+    </button>
+
+    <!-- Animation -->
   </body>
 </html>
